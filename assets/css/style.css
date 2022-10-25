@@ -373,25 +373,101 @@
 .get-card {
     width: 100%;
     text-align: center;
-    display: inline-flex ;
+    display: inline-flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-.get-card p{
+.get-card p {
     color: #b3b2b2;
     font-size: small
-
 }
 
 .btn-get-card {
-    
+
     border: none;
     background-color: #3bc03b;
     color: white;
     font-weight: bold;
     border-radius: 30px;
-    padding: 15px ;
+    padding: 15px;
     margin: 20px;
+}
+
+.section-rashko-baba {
+    width: 100%;
+}
+
+.rashko-title {
+    padding-top: 30px;
+    text-align: center;
+    font-size: larger;
+}
+
+.rashko-subtitle {
+    text-align: center;
+    font-size: small;
+}
+
+.rashko-discription {
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+    font-size: x-small;
+}
+
+.rashko-body {
+    display: inline-flex;
+    /* border: solid 1pt black; */
+    width: 100%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.rashko-left {
+    /* border: solid 1pt red; */
+    width: 34%;
+    text-align: center;
+    font-size: x-small;
+
+}
+
+.rashko-body .rashko-left img {
+    padding-top: 25px;
+}
+
+.rashko-body .rashko-right img {
+    padding-top: 25px;
+}
+
+.rashko-middle {
+    text-align: center;
+    width: 34%;
+    /* border: solid 1pt green; */
+}
+
+.rashko-middle img {
+    padding-top: 40px;
+    width: 100%;
+    border-radius: 200px;
+}
+
+.rashko-middle p {
+    background-color: #3bc03b;
+    border-radius: 30px;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+}
+
+.rashko-right {
+    /* border: solid 1pt blue; */
+    width: 34%;
+    text-align: center;
+    font-size: x-small;
 }

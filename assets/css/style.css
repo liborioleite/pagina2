@@ -530,9 +530,12 @@
 }
 
 .product-left .img-left {
-    width: 50%;
+    width: 40%;
     border-radius: 200px;
-
+    display: flex;
+    flex-direction: column;
+    margin-left: 50%;
+    margin-top: 10%;
 }
 
 .product-right {
@@ -642,6 +645,7 @@
 .footer-description {
     /* border: 1px solid green; */
     width: 30%;
+    font-size: small;
 }
 
 .f-title {
@@ -649,7 +653,7 @@
 }
 
 .f-subtitle {
-    font-size: small
+    font-size: x-small
 }
 
 .footer-item {
@@ -700,7 +704,86 @@
     margin-left: 350px; */
 }
 
-.img-new-ofer{
+.img-new-ofer {
     width: 30%;
     border-radius: 500px;
+}
+
+
+.site-foot-title{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 40px;
+    padding-bottom: 50px;
+    background-color: black;
+    color: white;
+    padding-top: 40px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.site-foot {
+    width: 80%;
+    margin-left: 10%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+/* .site-foot p {
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 40px;
+    padding-bottom: 50px;
+} */
+
+.site-foot-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    font-size: x-small;
+}
+
+.site-foot-right{
+ width: 50%;
+}
+
+.img-site-foot{
+    width: 50%;
+
+}
+
+.site-foot-left button {
+    background-color: #21c921;
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.fa {
+
+    padding-bottom: 35px;
+}
+
+.small{
+    font-size: small;
+}
+
+.final{
+    color: red;
+    margin-top: 60px;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+}
+
+.img-final{
+    border-radius: 100px;
 }
